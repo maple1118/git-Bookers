@@ -1,0 +1,122 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+/*Top画面*/
+header {
+  width: 100%;
+  padding:20px;
+}
+
+.main-visual {
+  width: 100%;
+  height: 80px;
+}
+
+.main-visual-text {
+  padding-left: 50px;
+  padding-bottom:30px;
+}
+
+nav {
+  width: 100%;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+
+li {
+  list-style: none;
+}
+
+/*index画面*/
+.index-title {
+  width: 100%;
+  padding: 20px 0 0 40px;
+}
+
+.font-green {
+  color: green;
+  padding: 20px 0 0 70px;
+}
+
+table {
+  padding-left:30px;
+  font-size: 0.8em;
+  border-spacing: 8px;
+}
+
+.index-new {
+  width:100%;
+  padding: 20px;
+}
+
+.index-title2 {
+  width: 100%;
+  padding-left: 20px;
+  font-size: 0.8em;
+}
+
+.index-box1 {
+  width: 15%;
+  margin-left: 20px;
+}
+
+.index-title3 {
+  width: 100%;
+  padding-left: 20px;
+  padding-top: 5px;
+  font-size: 0.8em;
+}
+
+.index-box2 {
+  width: 17%;
+  margin-left: 20px;
+}
+
+.index-box3 {
+  margin-left: 20px;
+}
+
+/*show画面*/
+.show {
+  width: 100%;
+  padding-left: 70px;
+  padding-top: 40px;
+  border-spacing: 50px;
+}
+
+.show-box1 {
+  padding: 0 0 40px 0;
+}
+
+.show-box2 {
+  padding: 0 0 40px 0;
+}
+
+.show-link {
+  padding-left: 40px;
+}
+
+
+/*edit画面*/
+.edit-main {
+  padding: 20px;
+}
